@@ -1,0 +1,165 @@
+{
+  "tours": [
+    {
+      "id": "1",
+      "title": "The Mysteries of Skolivski Beskydy",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 610,
+        "max": 770,
+        "currency": "$"
+      },
+      "location": "Ukraine",
+      "description": "Explore the ancient forests and mysterious landscapes of Skolivski Beskydy mountain range."
+    },
+    {
+      "id": "2",
+      "title": "Incredible Borzhava: through and through",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 2450,
+        "max": 2612,
+        "currency": "$"
+      },
+      "location": "Ukraine",
+      "description": "A complete journey through the stunning Borzhava mountain ridge with breathtaking views."
+    },
+    {
+      "id": "3",
+      "title": "The Peaks of Lviv Region: Pikuy Mountain",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 880,
+        "max": 1610,
+        "currency": "$"
+      },
+      "location": "Ukraine",
+      "description": "Conquer Pikuy Mountain, the highest peak of Lviv region with panoramic mountain views."
+    },
+    {
+      "id": "4",
+      "title": "Winter Fairytale: Carpathian Christmas",
+      "image": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1200,
+        "max": 1800,
+        "currency": "$"
+      },
+      "location": "Ukraine",
+      "description": "Experience the magic of Christmas in the snow-covered Carpathian mountains."
+    }
+  ],
+  "heroData": {
+    "location": "UKRAINE",
+    "title": "Carpathian Mountains",
+    "description": "Mountain chain famous for its ancient forests that are unique for Central Europe."
+  },
+  "destinations": {
+    "categories": [
+      {
+        "id": "1",
+        "title": "Outdoor getaways",
+        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
+        "stays": 131
+      },
+      {
+        "id": "2",
+        "title": "Unique stays",
+        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop",
+        "stays": 131
+      },
+      {
+        "id": "3",
+        "title": "Entire homes",
+        "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop",
+        "stays": 131
+      },
+      {
+        "id": "4",
+        "title": "Pets allowed",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop",
+        "stays": 131
+      }
+    ],
+    "nearby": [
+      {
+        "id": "1",
+        "city": "San Francisco",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=200&h=200&fit=crop",
+        "driveTime": "3 Hour drive"
+      },
+      {
+        "id": "2",
+        "city": "Los Angeles",
+        "image": "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=200&h=200&fit=crop",
+        "driveTime": "1 Hour drive"
+      },
+      {
+        "id": "3",
+        "city": "Miami",
+        "image": "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=200&h=200&fit=crop",
+        "driveTime": "4.5 Hour drive"
+      },
+      {
+        "id": "4",
+        "city": "Washington",
+        "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=200&h=200&fit=crop",
+        "driveTime": "7 Hour drive"
+      },
+      {
+        "id": "5",
+        "city": "New York",
+        "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=200&h=200&fit=crop",
+        "driveTime": "4 Hour drive"
+      },
+      {
+        "id": "6",
+        "city": "Chicago",
+        "image": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=200&h=200&fit=crop",
+        "driveTime": "5 Hour drive"
+      },
+      {
+        "id": "7",
+        "city": "San Jose",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=200&h=200&fit=crop",
+        "driveTime": "3 Hour drive"
+      },
+      {
+        "id": "8",
+        "city": "Philadelphia",
+        "image": "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=200&h=200&fit=crop",
+        "driveTime": "4 Hour drive"
+      }
+    ]
+  },
+  "worldMap": {
+    "title": "International Travel Destinations",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    "stats": [
+      {
+        "id": "1",
+        "value": 27,
+        "suffix": "+",
+        "label": "Countries"
+      },
+      {
+        "id": "2",
+        "value": 29,
+        "suffix": "M+",
+        "label": "Hectares Field"
+      },
+      {
+        "id": "3",
+        "value": 87,
+        "suffix": "K+",
+        "label": "Happy Farm's"
+      },
+      {
+        "id": "4",
+        "value": 25,
+        "suffix": "+",
+        "label": "Years Experience"
+      }
+    ]
+  }
+}
