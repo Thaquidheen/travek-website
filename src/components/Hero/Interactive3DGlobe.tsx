@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { Sphere, OrbitControls, GradientTexture } from "@react-three/drei";
+import { Sphere, OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
 function Globe() {

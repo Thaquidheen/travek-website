@@ -19,7 +19,7 @@ export default function CountryMarker({ country, position }: CountryMarkerProps)
   };
 
   return (
-    <group position={position}>
+    <group position={position} onPointerOver={() => setHovered(true)} onPointerOut={() => setHovered(false)} onClick={handleClick}>
       {/* Tooltip on hover */}
       {hovered && (
         <Html distanceFactor={10} position={[0, 0.2, 0]}>

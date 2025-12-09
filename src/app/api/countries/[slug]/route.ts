@@ -9,7 +9,7 @@ export async function GET(
   await new Promise((resolve) => setTimeout(resolve, 100));
 
   const country = toursData.countries?.find(
-    (c: any) => c.slug === params.slug
+    (c) => c.slug === params.slug
   );
 
   if (!country) {

@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "@/lib/gsap";
 import type { Country } from "@/types";
-import { FileText, Clock, Calendar, CreditCard, Globe, Languages, CheckCircle } from "lucide-react";
+import { FileText, Clock, Calendar, CreditCard, Languages, CheckCircle } from "lucide-react";
 
 interface DetailsSectionProps {
   country: Country;

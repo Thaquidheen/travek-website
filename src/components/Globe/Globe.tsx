@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useMemo } from "react";
-import { useFrame, useLoader } from "@react-three/fiber";
+import { useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import { Sphere, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import type { Country } from "@/types";
@@ -47,28 +47,7 @@ function EarthSphere({ radius }: { radius: number }) {
   );
 }
 
-// Fallback sphere without texture
-function FallbackSphere({ radius }: { radius: number }) {
-  const globeRef = useRef<THREE.Mesh>(null);
 
-  useFrame(() => {
-    if (globeRef.current) {
-      globeRef.current.rotation.y += 0.001;
-    }
-  });
-
-  return (
-    <Sphere ref={globeRef} args={[radius, 64, 64]}>
-      <meshPhongMaterial
-        color="#0c4a6e"
-        emissive="#082f49"
-        emissiveIntensity={0.3}
-        specular="#ffffff"
-        shininess={20}
-      />
-    </Sphere>
-  );
-}
 
 export default function Globe({ countries }: GlobeProps) {
   const radius = 2.5;
