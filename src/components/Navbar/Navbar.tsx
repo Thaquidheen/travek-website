@@ -7,8 +7,9 @@ import Link from "next/link";
 import { Search, User, ChevronDown, Globe, Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Destinations", href: "#destinations" },
+  { label: "Home", href: "/" },
   { label: "Tours", href: "#tours" },
+  { label: "Countries", href: "/countries" },
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },

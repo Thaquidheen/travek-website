@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function BackgroundEffects() {
   const backgroundRef = useRef<HTMLDivElement>(null);

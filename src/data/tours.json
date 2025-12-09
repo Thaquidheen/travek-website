@@ -47,6 +47,102 @@
       },
       "location": "Ukraine",
       "description": "Experience the magic of Christmas in the snow-covered Carpathian mountains."
+    },
+    {
+      "id": "5",
+      "title": "Tropical Paradise: Bali Island Escape",
+      "image": "https://images.unsplash.com/photo-1537225228614-b4fad34a0b60?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 890,
+        "max": 1350,
+        "currency": "$"
+      },
+      "location": "Indonesia",
+      "description": "Discover pristine beaches, ancient temples, and lush rice terraces in beautiful Bali."
+    },
+    {
+      "id": "6",
+      "title": "Swiss Alpine Adventure",
+      "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1800,
+        "max": 2500,
+        "currency": "$"
+      },
+      "location": "Switzerland",
+      "description": "Experience breathtaking mountain scenery, charming villages, and world-class skiing."
+    },
+    {
+      "id": "7",
+      "title": "Cherry Blossoms & Ancient Temples",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1500,
+        "max": 2200,
+        "currency": "$"
+      },
+      "location": "Japan",
+      "description": "Explore Japan's cultural treasures during the magical cherry blossom season."
+    },
+    {
+      "id": "8",
+      "title": "Paris Romance & Art Exploration",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1350,
+        "max": 1950,
+        "currency": "$"
+      },
+      "location": "France",
+      "description": "Fall in love with Paris as you experience world-class museums, cuisine, and romance."
+    },
+    {
+      "id": "9",
+      "title": "Great Barrier Reef Marine Adventure",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1650,
+        "max": 2400,
+        "currency": "$"
+      },
+      "location": "Australia",
+      "description": "Snorkel and dive through the world's most spectacular coral reef ecosystem."
+    },
+    {
+      "id": "10",
+      "title": "Mediterranean Island Hopping",
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1450,
+        "max": 2100,
+        "currency": "$"
+      },
+      "location": "Italy",
+      "description": "Explore ancient ruins, stunning coastlines, and authentic Italian culture across Mediterranean islands."
+    },
+    {
+      "id": "11",
+      "title": "Bangkok & Beach Bliss",
+      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 750,
+        "max": 1200,
+        "currency": "$"
+      },
+      "location": "Thailand",
+      "description": "Experience vibrant street markets, ancient temples, and beautiful tropical beaches in Thailand."
+    },
+    {
+      "id": "12",
+      "title": "Desert Safari & Modern Dubai",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400&h=300&fit=crop",
+      "priceRange": {
+        "min": 1100,
+        "max": 1700,
+        "currency": "$"
+      },
+      "location": "United Arab Emirates",
+      "description": "Discover the perfect blend of ultra-modern luxury and traditional Arabian desert adventures."
     }
   ],
   "heroData": {
@@ -161,5 +257,1098 @@
         "label": "Years Experience"
       }
     ]
-  }
+  },
+  "countries": [
+    {
+      "id": "1",
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "slug": "uae",
+      "coordinates": { "lat": 24.0, "lng": 54.0 },
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920",
+      "shortDescription": "Modern marvels and desert adventures",
+      "description": "The United Arab Emirates offers a unique blend of traditional Arabian culture and ultra-modern luxury. From the towering Burj Khalifa to vast desert dunes, experience world-class shopping, pristine beaches, and unforgettable adventures in this dynamic Middle Eastern destination.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+        "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=800",
+        "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800",
+        "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800",
+        "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800",
+        "https://images.unsplash.com/photo-1546412414-e1885259563a?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Tourist Visa",
+        "processingTime": "3-5 business days",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 days",
+        "entryType": "Single Entry, Multiple Entry",
+        "requirements": [
+          "Valid passport (minimum 6 months validity)",
+          "Passport-sized photographs",
+          "Confirmed flight tickets",
+          "Hotel booking confirmation",
+          "Travel insurance coverage"
+        ]
+      },
+      "bestTimeToVisit": "November to March",
+      "currency": "AED",
+      "language": "Arabic, English",
+      "timezone": "GST (UTC+4)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa to visit UAE?",
+          "answer": "Most nationalities require a visa to enter the UAE. Tourist visas are typically valid for 30 days and can be extended. Some nationalities receive visa on arrival, while others can apply for e-visa online before travel."
+        },
+        {
+          "id": "2",
+          "question": "What is the best time to visit UAE?",
+          "answer": "The best time to visit is from November to March when temperatures are pleasant (20-30°C). Summer months (June-August) can be extremely hot with temperatures exceeding 40°C, but indoor attractions are air-conditioned."
+        },
+        {
+          "id": "3",
+          "question": "Is UAE safe for tourists?",
+          "answer": "Yes, UAE is one of the safest countries in the world for tourists. It has very low crime rates and a strong focus on tourist safety and security. The country follows strict laws that ensure a safe environment."
+        },
+        {
+          "id": "4",
+          "question": "What currency is used in UAE?",
+          "answer": "The official currency is the UAE Dirham (AED). Credit cards are widely accepted in hotels, restaurants, and shopping malls. ATMs are readily available throughout the country for cash withdrawal."
+        },
+        {
+          "id": "5",
+          "question": "What should I wear in UAE?",
+          "answer": "While UAE is modern and liberal, modest dress is recommended, especially in public places. Beachwear is acceptable at beaches and pools. When visiting mosques, both men and women should cover shoulders and knees. In malls and restaurants, casual attire is fine."
+        }
+      ],
+      "contact": {
+        "phone": "+971-4-123-4567",
+        "whatsapp": "+971-50-123-4567",
+        "email": "uae@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 1
+    },
+    {
+      "id": "2",
+      "name": "Japan",
+      "code": "JP",
+      "slug": "japan",
+      "coordinates": { "lat": 36.2048, "lng": 138.2529 },
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1920",
+      "shortDescription": "Where ancient traditions meet futuristic innovation",
+      "description": "Japan is a captivating blend of ancient tradition and cutting-edge modernity. From serene temples and traditional tea ceremonies to neon-lit cities and bullet trains, experience a unique culture that honors its past while embracing the future.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+        "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800",
+        "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800",
+        "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800",
+        "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800"
+      ],
+      "visaInfo": {
+        "required": false,
+        "type": "Visa-free Entry",
+        "processingTime": "N/A",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (minimum 6 months validity)",
+          "Return or onward ticket",
+          "Proof of sufficient funds",
+          "Completed arrival card"
+        ]
+      },
+      "bestTimeToVisit": "March to May, October to November",
+      "currency": "JPY",
+      "language": "Japanese",
+      "timezone": "JST (UTC+9)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa to visit Japan?",
+          "answer": "Many nationalities can visit Japan visa-free for tourism purposes for up to 90 days. However, requirements vary by nationality. Check with your local Japanese embassy for specific requirements."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to see cherry blossoms?",
+          "answer": "Cherry blossom season typically runs from late March to early May, with peak bloom varying by region. Tokyo and Kyoto usually peak in early April. It's a magical time to visit Japan."
+        },
+        {
+          "id": "3",
+          "question": "Is it expensive to travel in Japan?",
+          "answer": "Japan can be expensive, but budget options exist. Transportation passes like JR Pass, business hotel chains, and convenience store meals can help reduce costs significantly while maintaining quality."
+        },
+        {
+          "id": "4",
+          "question": "Do people speak English in Japan?",
+          "answer": "English proficiency varies throughout Japan. Major tourist areas, hotels, and airports have more English speakers, but learning basic Japanese phrases is helpful and appreciated. Many signs in cities are in English."
+        },
+        {
+          "id": "5",
+          "question": "Is Japan cash-based or card-friendly?",
+          "answer": "Japan is still largely cash-based, though card acceptance is improving in major cities. Many small shops and restaurants prefer cash. ATMs are widely available, especially at convenience stores like 7-Eleven."
+        }
+      ],
+      "contact": {
+        "phone": "+81-3-1234-5678",
+        "whatsapp": "+81-90-1234-5678",
+        "email": "japan@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 2
+    },
+    {
+      "id": "3",
+      "name": "France",
+      "code": "FR",
+      "slug": "france",
+      "coordinates": { "lat": 46.2276, "lng": 2.2137 },
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920",
+      "shortDescription": "The epitome of romance, culture, and fine living",
+      "description": "France captivates visitors with its art, architecture, cuisine, and culture. From the iconic Eiffel Tower to the lavender fields of Provence, the French Riviera beaches to Alpine ski resorts, discover why France remains the world's most visited country.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+        "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=800",
+        "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800",
+        "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+        "https://images.unsplash.com/photo-1565946997364-12ced640ebf7?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15-20 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (minimum 3 months beyond stay)",
+          "Completed visa application form",
+          "Passport-sized photographs",
+          "Travel insurance (minimum €30,000 coverage)",
+          "Proof of accommodation",
+          "Flight reservations",
+          "Bank statements (last 3 months)"
+        ]
+      },
+      "bestTimeToVisit": "April to June, September to October",
+      "currency": "EUR",
+      "language": "French",
+      "timezone": "CET (UTC+1)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa to visit France?",
+          "answer": "Depends on your nationality. EU/EEA citizens don't need a visa. Many other nationalities require a Schengen visa. US, Canadian, Australian, and many Asian nationals can visit visa-free for up to 90 days."
+        },
+        {
+          "id": "2",
+          "question": "What is the best time to visit France?",
+          "answer": "Spring (April-June) and fall (September-October) offer pleasant weather and fewer crowds. Summer is peak season with warm weather but more tourists. Winter is great for skiing in the Alps."
+        },
+        {
+          "id": "3",
+          "question": "Do I need to speak French in France?",
+          "answer": "While French is the primary language, English is widely understood in tourist areas, hotels, and restaurants in major cities. Learning basic French phrases is appreciated and helpful."
+        },
+        {
+          "id": "4",
+          "question": "Is France expensive to visit?",
+          "answer": "France can be moderately expensive, especially in Paris. Budget options include staying in hostels, eating at boulangeries, using public transport, and visiting free attractions. Costs are lower in smaller towns."
+        },
+        {
+          "id": "5",
+          "question": "What are must-visit places in France?",
+          "answer": "Paris (Eiffel Tower, Louvre), Versailles, French Riviera (Nice, Monaco), Provence, Loire Valley castles, Mont Saint-Michel, and the Alps are all incredible destinations worth exploring."
+        }
+      ],
+      "contact": {
+        "phone": "+33-1-23-45-67-89",
+        "whatsapp": "+33-6-12-34-56-78",
+        "email": "france@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 3
+    },
+    {
+      "id": "4",
+      "name": "Italy",
+      "code": "IT",
+      "slug": "italy",
+      "coordinates": { "lat": 41.8719, "lng": 12.5674 },
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=1920",
+      "shortDescription": "A timeless journey through art, history, and cuisine",
+      "description": "Italy is a feast for the senses with its Renaissance art, ancient ruins, stunning coastlines, and world-renowned cuisine. Explore the Colosseum, float through Venice's canals, savor authentic pasta in Rome, and discover the rolling hills of Tuscany.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800",
+        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
+        "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?w=800",
+        "https://images.unsplash.com/photo-1534113414509-0bd2699920d7?w=800",
+        "https://images.unsplash.com/photo-1525874684015-58379d421a52?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15-20 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (minimum 3 months beyond stay)",
+          "Visa application form with photo",
+          "Travel insurance (€30,000 minimum)",
+          "Hotel bookings or invitation letter",
+          "Round-trip flight tickets",
+          "Proof of financial means"
+        ]
+      },
+      "bestTimeToVisit": "April to June, September to October",
+      "currency": "EUR",
+      "language": "Italian",
+      "timezone": "CET (UTC+1)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Italy?",
+          "answer": "EU/EEA citizens don't need a visa. Many nationalities (US, Canada, Australia, Japan) can visit visa-free for up to 90 days for tourism. Others require a Schengen visa."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Italy?",
+          "answer": "Spring (April-June) and early fall (September-October) offer ideal weather, fewer crowds, and moderate prices. Summer is hot and crowded. Winter is quieter with fewer tourists."
+        },
+        {
+          "id": "3",
+          "question": "Is Italy expensive?",
+          "answer": "Costs vary by region. Major cities like Rome, Venice, and Milan are pricier. Southern Italy and smaller towns are more affordable. Budget wisely on accommodation and dining."
+        },
+        {
+          "id": "4",
+          "question": "Do Italians speak English?",
+          "answer": "English is widely spoken in tourist areas, hotels, and restaurants. In smaller towns and rural areas, Italian is predominantly used. Learning basic Italian phrases is helpful."
+        },
+        {
+          "id": "5",
+          "question": "What are the must-see cities in Italy?",
+          "answer": "Rome (Colosseum, Vatican), Florence (art and architecture), Venice (canals and gondolas), Milan (fashion and design), Naples (Pompeii), and the Amalfi Coast are essential destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+39-06-1234-5678",
+        "whatsapp": "+39-320-123-4567",
+        "email": "italy@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 4
+    },
+    {
+      "id": "5",
+      "name": "Spain",
+      "code": "ES",
+      "slug": "spain",
+      "coordinates": { "lat": 40.4637, "lng": -3.7492 },
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=1920",
+      "shortDescription": "Vibrant culture, stunning beaches, and endless fiestas",
+      "description": "Spain dazzles with its diverse landscapes, vibrant culture, and rich history. From Barcelona's Gaudí masterpieces to Madrid's world-class museums, Seville's flamenco to Ibiza's beaches, Spain offers unforgettable experiences for every traveler.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800",
+        "https://images.unsplash.com/photo-1558642084-fd07fae5282e?w=800",
+        "https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?w=800",
+        "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800",
+        "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800",
+        "https://images.unsplash.com/photo-1562883676-8c7feb83f09b?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15-20 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Single Entry, Multiple Entry",
+        "requirements": [
+          "Valid passport (3 months beyond departure)",
+          "Completed visa application",
+          "Recent passport photos",
+          "Travel health insurance",
+          "Proof of accommodation",
+          "Financial proof (bank statements)",
+          "Flight itinerary"
+        ]
+      },
+      "bestTimeToVisit": "May to June, September to October",
+      "currency": "EUR",
+      "language": "Spanish",
+      "timezone": "CET (UTC+1)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa to visit Spain?",
+          "answer": "EU citizens don't need a visa. Many nationalities including US, Canada, Australia can visit visa-free for up to 90 days. Others need a Schengen visa. Check specific requirements for your nationality."
+        },
+        {
+          "id": "2",
+          "question": "What's the best time to visit Spain?",
+          "answer": "Late spring (May-June) and early autumn (September-October) offer pleasant weather and fewer tourists. Summer is hot and crowded, especially in coastal areas. Winter is mild in the south."
+        },
+        {
+          "id": "3",
+          "question": "Is Spain safe for tourists?",
+          "answer": "Spain is generally very safe for tourists. Take normal precautions against pickpockets in crowded tourist areas and on public transport, especially in Barcelona and Madrid."
+        },
+        {
+          "id": "4",
+          "question": "What language is spoken in Spain?",
+          "answer": "Spanish (Castilian) is the official language. Regional languages include Catalan (Catalonia), Basque, and Galician. English is widely understood in tourist areas and major cities."
+        },
+        {
+          "id": "5",
+          "question": "What are Spain's must-visit destinations?",
+          "answer": "Barcelona (Sagrada Familia, Park Güell), Madrid (Prado Museum, Royal Palace), Seville (Alcázar), Granada (Alhambra), Valencia, San Sebastián, and the Balearic Islands are all incredible."
+        }
+      ],
+      "contact": {
+        "phone": "+34-91-123-4567",
+        "whatsapp": "+34-600-123-456",
+        "email": "spain@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 5
+    },
+    {
+      "id": "6",
+      "name": "Thailand",
+      "code": "TH",
+      "slug": "thailand",
+      "coordinates": { "lat": 15.87, "lng": 100.9925 },
+      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1920",
+      "shortDescription": "Tropical paradise with golden temples and warm smiles",
+      "description": "Thailand offers a perfect blend of exotic beaches, ornate temples, delicious cuisine, and warm hospitality. From Bangkok's bustling streets to Phuket's pristine beaches, Chiang Mai's mountains to vibrant night markets, Thailand is a Southeast Asian gem.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1528181304800-259b08848526?w=800",
+        "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800",
+        "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800",
+        "https://images.unsplash.com/photo-1534008897995-27a23e859048?w=800",
+        "https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=800",
+        "https://images.unsplash.com/photo-1563492065398-357e796fb1c1?w=800"
+      ],
+      "visaInfo": {
+        "required": false,
+        "type": "Visa on Arrival",
+        "processingTime": "Upon arrival",
+        "validity": "30 days",
+        "stayDuration": "Up to 30 days",
+        "entryType": "Single Entry",
+        "requirements": [
+          "Valid passport (6 months validity)",
+          "Return/onward ticket",
+          "Proof of accommodation",
+          "Sufficient funds (cash or card)",
+          "Completed arrival card"
+        ]
+      },
+      "bestTimeToVisit": "November to February",
+      "currency": "THB",
+      "language": "Thai",
+      "timezone": "ICT (UTC+7)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Thailand?",
+          "answer": "Many nationalities receive visa-free entry or visa on arrival for 30 days. Some countries can get 60-day tourist visas. Check Thailand's immigration website for your specific nationality requirements."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Thailand?",
+          "answer": "November to February is the cool, dry season—perfect for travel. March to May is hot. June to October is rainy season, though still travelable with occasional showers and lower prices."
+        },
+        {
+          "id": "3",
+          "question": "Is Thailand cheap to travel?",
+          "answer": "Yes, Thailand is very budget-friendly. Accommodation, food, and transport are affordable. You can travel comfortably on a moderate budget, with options ranging from backpacker-friendly to luxury."
+        },
+        {
+          "id": "4",
+          "question": "Is Thailand safe for tourists?",
+          "answer": "Thailand is generally safe for tourists. Take normal precautions, be aware of scams in tourist areas, and respect local customs. The Thai people are known for their hospitality."
+        },
+        {
+          "id": "5",
+          "question": "What should I not miss in Thailand?",
+          "answer": "Bangkok's Grand Palace, Chiang Mai's temples, Phuket and Krabi beaches, Ayutthaya historical park, floating markets, Thai cooking classes, and island hopping in the Andaman Sea are must-experiences."
+        }
+      ],
+      "contact": {
+        "phone": "+66-2-123-4567",
+        "whatsapp": "+66-81-234-5678",
+        "email": "thailand@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 6
+    },
+    {
+      "id": "7",
+      "name": "Australia",
+      "code": "AU",
+      "slug": "australia",
+      "coordinates": { "lat": -25.2744, "lng": 133.7751 },
+      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1920",
+      "shortDescription": "Land of endless adventures and natural wonders",
+      "description": "Australia amazes with its diverse landscapes, unique wildlife, and laid-back culture. From the Great Barrier Reef to Sydney Opera House, Outback deserts to tropical rainforests, experience a country like no other on Earth.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800",
+        "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800",
+        "https://images.unsplash.com/photo-1528127269322-539801943592?w=800",
+        "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=800",
+        "https://images.unsplash.com/photo-1591386532253-fe2411b87a81?w=800",
+        "https://images.unsplash.com/photo-1595178041089-425558f8b1ee?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "eVisitor / ETA",
+        "processingTime": "1-2 business days",
+        "validity": "12 months",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport",
+          "Online visa application (eVisitor or ETA)",
+          "Email address for confirmation",
+          "Credit card for payment",
+          "Health declaration form"
+        ]
+      },
+      "bestTimeToVisit": "September to November, March to May",
+      "currency": "AUD",
+      "language": "English",
+      "timezone": "AEST (UTC+10)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Australia?",
+          "answer": "Yes, most visitors need a visa. Many nationalities can apply for an eVisitor or Electronic Travel Authority (ETA) online, which are quick and easy to obtain for tourism purposes."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Australia?",
+          "answer": "Australia's seasons are opposite to the Northern Hemisphere. Spring (September-November) and autumn (March-May) offer mild weather. Summer is great for beaches, winter for tropical north."
+        },
+        {
+          "id": "3",
+          "question": "Is Australia expensive to visit?",
+          "answer": "Australia can be relatively expensive, especially in major cities. Accommodation, food, and activities cost more than Asian destinations but comparable to Europe. Budget options are available."
+        },
+        {
+          "id": "4",
+          "question": "Is Australia dangerous with all the wildlife?",
+          "answer": "While Australia has unique wildlife, dangerous encounters are rare. Follow local advice, don't approach wild animals, swim at patrolled beaches, and shake out shoes before wearing."
+        },
+        {
+          "id": "5",
+          "question": "What are must-see places in Australia?",
+          "answer": "Sydney (Opera House, Harbour Bridge), Great Barrier Reef, Uluru, Melbourne, Gold Coast, Great Ocean Road, Whitsunday Islands, Tasmania, and the Outback are all incredible destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+61-2-1234-5678",
+        "whatsapp": "+61-400-123-456",
+        "email": "australia@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 7
+    },
+    {
+      "id": "8",
+      "name": "United States",
+      "code": "US",
+      "slug": "usa",
+      "coordinates": { "lat": 37.0902, "lng": -95.7129 },
+      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=1920",
+      "shortDescription": "Land of opportunity and endless possibilities",
+      "description": "The United States offers incredible diversity—from New York's skyline to California's beaches, Grand Canyon's vastness to Yellowstone's geysers. Experience world-class cities, stunning national parks, and the American Dream in action.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
+        "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=800",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800",
+        "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "B-2 Tourist Visa / ESTA",
+        "processingTime": "3-5 weeks (visa) / 72 hours (ESTA)",
+        "validity": "10 years (visa) / 2 years (ESTA)",
+        "stayDuration": "Up to 180 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport",
+          "DS-160 form (visa) or ESTA application",
+          "Interview at US Embassy (for visa)",
+          "Proof of ties to home country",
+          "Financial documentation",
+          "Travel itinerary"
+        ]
+      },
+      "bestTimeToVisit": "April to June, September to October",
+      "currency": "USD",
+      "language": "English",
+      "timezone": "Multiple (EST to PST)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for the USA?",
+          "answer": "Depends on nationality. Citizens of Visa Waiver Program countries can apply for ESTA online. Others need a B-2 tourist visa requiring embassy interview. Check your specific requirements."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit the USA?",
+          "answer": "Varies by region. Spring (April-June) and fall (September-October) are ideal for most areas. Summer is great for national parks. Winter is perfect for Florida, California, or skiing."
+        },
+        {
+          "id": "3",
+          "question": "Is the USA expensive to visit?",
+          "answer": "Costs vary widely by location. Major cities like New York and San Francisco are expensive. Smaller cities and rural areas are more affordable. Budget for accommodation, food, and transport."
+        },
+        {
+          "id": "4",
+          "question": "Is it safe to travel in the USA?",
+          "answer": "Yes, the USA is generally safe for tourists. Exercise normal precautions, be aware in crowded areas, and follow local guidelines. Safety levels vary by location and neighborhood."
+        },
+        {
+          "id": "5",
+          "question": "What are must-visit places in the USA?",
+          "answer": "New York City, Los Angeles, San Francisco, Las Vegas, Miami, Grand Canyon, Yellowstone, Hawaii, Florida theme parks, and New Orleans are among countless incredible destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+1-212-123-4567",
+        "whatsapp": "+1-555-123-4567",
+        "email": "usa@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 8
+    },
+    {
+      "id": "9",
+      "name": "United Kingdom",
+      "code": "GB",
+      "slug": "uk",
+      "coordinates": { "lat": 55.3781, "lng": -3.436 },
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1920",
+      "shortDescription": "Where history, royalty, and modernity converge",
+      "description": "The United Kingdom blends rich history with contemporary culture. From London's iconic landmarks to Scotland's highlands, Edinburgh's festivals to English countryside, experience royal heritage, literary legends, and vibrant modern cities.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+        "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=800",
+        "https://images.unsplash.com/photo-1496372412473-e8548ffd82bc?w=800",
+        "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=800",
+        "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800",
+        "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Standard Visitor Visa",
+        "processingTime": "3 weeks",
+        "validity": "6 months",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport",
+          "Online visa application",
+          "Biometric appointment",
+          "Proof of funds",
+          "Accommodation details",
+          "Travel itinerary",
+          "Employment letter or school enrollment"
+        ]
+      },
+      "bestTimeToVisit": "April to September",
+      "currency": "GBP",
+      "language": "English",
+      "timezone": "GMT (UTC+0)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for the UK?",
+          "answer": "EU/EEA citizens need an ETA. Many nationalities including US, Canada, Australia can visit visa-free for up to 6 months. Others require a Standard Visitor visa. Check UK government requirements."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit the UK?",
+          "answer": "Late spring to early autumn (April-September) offers the best weather. Summer has long days and festivals. Spring and autumn have fewer crowds. Winter is cold but festive."
+        },
+        {
+          "id": "3",
+          "question": "Is the UK expensive to visit?",
+          "answer": "The UK, especially London, can be expensive. However, free museums, affordable chain restaurants, and public transport passes help manage costs. Regional areas are more budget-friendly."
+        },
+        {
+          "id": "4",
+          "question": "What's the weather like in the UK?",
+          "answer": "The UK has a temperate maritime climate with mild temperatures year-round but frequent rain. Pack layers and waterproof clothing regardless of season. Weather can be unpredictable."
+        },
+        {
+          "id": "5",
+          "question": "What are the must-see places in the UK?",
+          "answer": "London (Big Ben, Buckingham Palace), Edinburgh, Stonehenge, Oxford, Cambridge, Lake District, Scottish Highlands, Bath, York, and the Cotswolds are all spectacular destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+44-20-1234-5678",
+        "whatsapp": "+44-7700-123456",
+        "email": "uk@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 9
+    },
+    {
+      "id": "10",
+      "name": "Switzerland",
+      "code": "CH",
+      "slug": "switzerland",
+      "coordinates": { "lat": 46.8182, "lng": 8.2275 },
+      "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1920",
+      "shortDescription": "Alpine paradise of pristine beauty and perfection",
+      "description": "Switzerland enchants with its majestic Alps, crystal-clear lakes, charming villages, and precision craftsmanship. From skiing in Zermatt to exploring Zurich, scenic train journeys to chocolate tastings, experience Swiss perfection in every detail.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800",
+        "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800",
+        "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800",
+        "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (3 months beyond stay)",
+          "Completed visa application",
+          "Two recent passport photos",
+          "Travel insurance (€30,000 coverage)",
+          "Hotel reservations",
+          "Bank statements",
+          "Flight bookings"
+        ]
+      },
+      "bestTimeToVisit": "June to August, December to March",
+      "currency": "CHF",
+      "language": "German, French, Italian",
+      "timezone": "CET (UTC+1)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Switzerland?",
+          "answer": "EU/EFTA citizens don't need a visa. Many nationalities including US, Canada, Australia can visit visa-free for 90 days. Others need a Schengen visa. Switzerland is not in the EU but in Schengen."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Switzerland?",
+          "answer": "Summer (June-August) is perfect for hiking and lakes. Winter (December-March) is ideal for skiing. Spring and autumn offer fewer crowds and beautiful scenery at lower prices."
+        },
+        {
+          "id": "3",
+          "question": "Is Switzerland very expensive?",
+          "answer": "Yes, Switzerland is one of Europe's most expensive countries. Accommodation, food, and transport cost significantly more. Budget carefully, use Swiss Travel Pass, and shop at Co-op or Migros supermarkets."
+        },
+        {
+          "id": "4",
+          "question": "What language is spoken in Switzerland?",
+          "answer": "Switzerland has four official languages: German (63%), French (23%), Italian (8%), and Romansh (0.5%). English is widely spoken in tourist areas and cities."
+        },
+        {
+          "id": "5",
+          "question": "What are must-see places in Switzerland?",
+          "answer": "Zurich, Geneva, Lucerne, Interlaken, Zermatt (Matterhorn), Jungfraujoch, Lake Geneva, St. Moritz, Bern, and scenic train routes like Glacier Express are all breathtaking."
+        }
+      ],
+      "contact": {
+        "phone": "+41-44-123-4567",
+        "whatsapp": "+41-76-123-4567",
+        "email": "switzerland@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 10
+    },
+    {
+      "id": "11",
+      "name": "Canada",
+      "code": "CA",
+      "slug": "canada",
+      "coordinates": { "lat": 56.1304, "lng": -106.3468 },
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920",
+      "shortDescription": "Vast wilderness and stunning natural landscapes",
+      "description": "Canada offers breathtaking natural beauty from Niagara Falls to the Rocky Mountains, pristine lakes to northern lights. Experience world-class skiing, national parks, and the warm hospitality of Canadian culture.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+        "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=800",
+        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800",
+        "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800",
+        "https://images.unsplash.com/photo-1445108771496-4633b8b3f0ce?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "eTA or Visitor Visa",
+        "processingTime": "Online: A few minutes, Visa: 2-4 weeks",
+        "validity": "5 years",
+        "stayDuration": "Up to 6 months",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (6 months beyond stay)",
+          "eTA or visa application",
+          "Return ticket",
+          "Proof of funds",
+          "Travel itinerary"
+        ]
+      },
+      "bestTimeToVisit": "June to September, December to March",
+      "currency": "CAD",
+      "language": "English, French",
+      "timezone": "EST to PST",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Canada?",
+          "answer": "Many nationalities require an eTA (Electronic Travel Authorization) which is quick and inexpensive. Others need a visitor visa. Check Canada's immigration website for your specific requirements."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Canada?",
+          "answer": "Summer (June-September) is perfect for outdoor activities. Winter (December-March) is ideal for skiing and seeing the Northern Lights. Fall offers spectacular foliage."
+        },
+        {
+          "id": "3",
+          "question": "What are the must-see places in Canada?",
+          "answer": "Niagara Falls, Banff and Lake Louise, Rocky Mountains, Vancouver, Toronto, Ottawa, the Canadian Rockies, and Jasper National Park are all incredible destinations."
+        },
+        {
+          "id": "4",
+          "question": "Is Canada expensive to visit?",
+          "answer": "Canada can be moderately expensive, but varies by region. Western and national park areas are pricier. Budget options exist in smaller cities and rural areas."
+        },
+        {
+          "id": "5",
+          "question": "Do people speak English in Canada?",
+          "answer": "Yes, English is widely spoken throughout Canada. French is the primary language in Quebec. English speakers will have no problem communicating."
+        }
+      ],
+      "contact": {
+        "phone": "+1-613-944-4000",
+        "whatsapp": "+1-888-242-2262",
+        "email": "canada@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 11
+    },
+    {
+      "id": "12",
+      "name": "Mexico",
+      "code": "MX",
+      "slug": "mexico",
+      "coordinates": { "lat": 23.6345, "lng": -102.5528 },
+      "image": "https://images.unsplash.com/photo-1518522529235-cebbb3921dfd?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1518522529235-cebbb3921dfd?w=1920",
+      "shortDescription": "Ancient ruins, vibrant culture, and beautiful beaches",
+      "description": "Mexico captivates with ancient Mayan ruins, colonial architecture, world-class beaches, and vibrant cuisine. From Cancun's turquoise waters to Mexico City's museums, Oaxaca's traditions to Playa del Carmen's resorts, discover the magic of Mexico.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518522529235-cebbb3921dfd?w=800",
+        "https://images.unsplash.com/photo-1583365729098-47467b9a2b39?w=800",
+        "https://images.unsplash.com/photo-1580564326776-fdf1ecf6b475?w=800",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+        "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+      ],
+      "visaInfo": {
+        "required": false,
+        "type": "Tourist Card / Visa-free",
+        "processingTime": "Upon arrival",
+        "validity": "180 days",
+        "stayDuration": "Up to 180 days",
+        "entryType": "Single Entry",
+        "requirements": [
+          "Valid passport (6 months beyond stay)",
+          "Return ticket",
+          "Proof of funds",
+          "Tourist card (FMM)"
+        ]
+      },
+      "bestTimeToVisit": "November to April",
+      "currency": "MXN",
+      "language": "Spanish",
+      "timezone": "CST, MST, PST",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Mexico?",
+          "answer": "Most nationalities can enter Mexico visa-free for tourism and receive a tourist card. Valid passport and return ticket are typically required. Check for your specific nationality."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Mexico?",
+          "answer": "November to April offers ideal weather, fewer crowds, and lower humidity. June to September is rainy season. December-January is peak tourist season with higher prices."
+        },
+        {
+          "id": "3",
+          "question": "Is Mexico safe for tourists?",
+          "answer": "Popular tourist destinations like Cancun, Playa del Carmen, and Puerto Vallarta are generally safe. Use normal precautions in any destination and avoid displaying valuables."
+        },
+        {
+          "id": "4",
+          "question": "What language is spoken in Mexico?",
+          "answer": "Spanish is the primary language. English is spoken in tourist areas, hotels, and major cities. Learning basic Spanish phrases is appreciated."
+        },
+        {
+          "id": "5",
+          "question": "What are must-visit places in Mexico?",
+          "answer": "Cancun, Playa del Carmen, Tulum ruins, Chichen Itza, Mexico City, Oaxaca, Puerto Vallarta, Los Cabos, and Cozumel are all fantastic destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+52-55-1234-5678",
+        "whatsapp": "+52-55-1234-5678",
+        "email": "mexico@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 12
+    },
+    {
+      "id": "13",
+      "name": "Germany",
+      "code": "DE",
+      "slug": "germany",
+      "coordinates": { "lat": 51.1657, "lng": 10.4515 },
+      "image": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=1920",
+      "shortDescription": "Historic castles, vibrant culture, and engineering excellence",
+      "description": "Germany blends historical landmarks with modern innovation. From Berlin's museums and Brandenburg Gate to Munich's beer culture, Rhine Valley castles to Black Forest beauty, experience German precision and warmth.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=800",
+        "https://images.unsplash.com/photo-1524661756769-da5d36c49b24?w=800",
+        "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=800",
+        "https://images.unsplash.com/photo-1495506172613-ef5e432ceb47?w=800",
+        "https://images.unsplash.com/photo-1519814050643-c8b136b78406?w=800",
+        "https://images.unsplash.com/photo-1505765050380-480ecde7591b?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (3 months beyond stay)",
+          "Visa application form",
+          "Passport photos",
+          "Travel insurance",
+          "Proof of accommodation",
+          "Bank statements"
+        ]
+      },
+      "bestTimeToVisit": "May to September",
+      "currency": "EUR",
+      "language": "German",
+      "timezone": "CET (UTC+1)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Germany?",
+          "answer": "EU citizens don't need a visa. Many nationalities including US, Canada, Australia can visit visa-free for 90 days. Others need a Schengen visa."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Germany?",
+          "answer": "May to September offers warm weather perfect for sightseeing. Oktoberfest is in September. Winter (December) is magical with Christmas markets but very cold."
+        },
+        {
+          "id": "3",
+          "question": "Is Germany expensive?",
+          "answer": "Germany is moderately priced for Europe. Public transport is efficient and affordable. Food and beer are reasonably priced, especially outside major cities."
+        },
+        {
+          "id": "4",
+          "question": "Do people speak English in Germany?",
+          "answer": "Yes, especially in major cities, tourist areas, and among younger people. English is widely taught in schools. Learning basic German phrases is appreciated."
+        },
+        {
+          "id": "5",
+          "question": "What are must-see places in Germany?",
+          "answer": "Berlin, Munich, Cologne Cathedral, Neuschwanstein Castle, Black Forest, Rhine Valley, Hamburg, Frankfurt, and Heidelberg are all incredible destinations."
+        }
+      ],
+      "contact": {
+        "phone": "+49-30-1234-5678",
+        "whatsapp": "+49-177-1234567",
+        "email": "germany@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 13
+    },
+    {
+      "id": "14",
+      "name": "Portugal",
+      "code": "PT",
+      "slug": "portugal",
+      "coordinates": { "lat": 39.3999, "lng": -8.2245 },
+      "image": "https://images.unsplash.com/photo-1555881298-46d4d127ae9f?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1555881298-46d4d127ae9f?w=1920",
+      "shortDescription": "Charming coastal villages and historic discoveries",
+      "description": "Portugal enchants with its colorful tiles, golden beaches, historic architecture, and exceptional cuisine. From Lisbon's vibrant streets to Algarve's pristine coastlines, Porto's port wine to Sintra's palaces, discover hidden European gem.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1555881298-46d4d127ae9f?w=800",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+        "https://images.unsplash.com/photo-1479199543925-b5b57f30e14f?w=800",
+        "https://images.unsplash.com/photo-1577720643272-265e434e1c3d?w=800",
+        "https://images.unsplash.com/photo-1453960322366-f83b8d6c9bce?w=800",
+        "https://images.unsplash.com/photo-1440584520641-c7f23cccc5e8?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15-20 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (3 months beyond stay)",
+          "Visa application",
+          "Passport photos",
+          "Travel insurance",
+          "Proof of accommodation",
+          "Bank statements"
+        ]
+      },
+      "bestTimeToVisit": "April to May, September to October",
+      "currency": "EUR",
+      "language": "Portuguese",
+      "timezone": "WET (UTC+0)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Portugal?",
+          "answer": "EU citizens don't need a visa. Many nationalities including US, Canada, Australia can visit visa-free for 90 days. Others need a Schengen visa."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Portugal?",
+          "answer": "Spring (April-May) and fall (September-October) offer perfect weather. Summer is warm but crowded. Winter is mild in the Algarve but rainy in other regions."
+        },
+        {
+          "id": "3",
+          "question": "Is Portugal budget-friendly?",
+          "answer": "Yes, Portugal is one of Europe's most affordable destinations. Excellent food, wine, and accommodation at great prices. Perfect for budget travelers."
+        },
+        {
+          "id": "4",
+          "question": "Do people speak English in Portugal?",
+          "answer": "English is widely spoken in Lisbon, tourist areas, and among younger people. In smaller towns, fewer people speak English. Portuguese is the primary language."
+        },
+        {
+          "id": "5",
+          "question": "What are must-see places in Portugal?",
+          "answer": "Lisbon, Porto, Sintra, Cascais, Algarve beaches, Madeira, Azores, Évora, and Óbidos are all wonderful destinations worth exploring."
+        }
+      ],
+      "contact": {
+        "phone": "+351-21-1234-5678",
+        "whatsapp": "+351-91-234-5678",
+        "email": "portugal@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 14
+    },
+    {
+      "id": "15",
+      "name": "Greece",
+      "code": "GR",
+      "slug": "greece",
+      "coordinates": { "lat": 39.0742, "lng": 21.8243 },
+      "image": "https://images.unsplash.com/photo-1601579554430-2a58d886fdf4?w=800",
+      "heroImage": "https://images.unsplash.com/photo-1601579554430-2a58d886fdf4?w=1920",
+      "shortDescription": "Ancient ruins, island paradise, and Mediterranean charm",
+      "description": "Greece captivates with ancient temples, idyllic islands, crystal-clear waters, and Mediterranean hospitality. From Athens' Acropolis to Santorini's sunset, Mykonos beaches to Delphi ruins, experience timeless beauty.",
+      "gallery": [
+        "https://images.unsplash.com/photo-1601579554430-2a58d886fdf4?w=800",
+        "https://images.unsplash.com/photo-1604522527923-01e92a91e1dc?w=800",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+        "https://images.unsplash.com/photo-1613395877300-ab7f4b88b852?w=800",
+        "https://images.unsplash.com/photo-1585399363564-a1b3b09a6aa8?w=800",
+        "https://images.unsplash.com/photo-1575375335684-759a8b7be4c5?w=800"
+      ],
+      "visaInfo": {
+        "required": true,
+        "type": "Schengen Visa",
+        "processingTime": "15 business days",
+        "validity": "90 days",
+        "stayDuration": "Up to 90 days",
+        "entryType": "Multiple Entry",
+        "requirements": [
+          "Valid passport (3 months beyond stay)",
+          "Visa application",
+          "Passport photos",
+          "Travel insurance",
+          "Proof of accommodation",
+          "Financial proof"
+        ]
+      },
+      "bestTimeToVisit": "April to June, September to October",
+      "currency": "EUR",
+      "language": "Greek",
+      "timezone": "EET (UTC+2)",
+      "faqs": [
+        {
+          "id": "1",
+          "question": "Do I need a visa for Greece?",
+          "answer": "EU citizens don't need a visa. Many nationalities including US, Canada, Australia can visit visa-free for 90 days. Others need a Schengen visa."
+        },
+        {
+          "id": "2",
+          "question": "When is the best time to visit Greece?",
+          "answer": "April to June and September to October offer perfect weather and fewer crowds. July-August is hot and crowded. Winter is mild but some islands have limited services."
+        },
+        {
+          "id": "3",
+          "question": "Is Greece expensive?",
+          "answer": "Greece is moderately priced. Islands like Santorini are pricier, but mainland areas and other islands are affordable. Food and wine are excellent values."
+        },
+        {
+          "id": "4",
+          "question": "Do people speak English in Greece?",
+          "answer": "English is widely spoken in tourist areas, hotels, and major cities. Many Greeks speak English. Greek is the primary language in smaller villages."
+        },
+        {
+          "id": "5",
+          "question": "What are must-see places in Greece?",
+          "answer": "Athens, Santorini, Mykonos, Delphi, Crete, Rhodes, Hydra, Naxos, and the Peloponnese are all incredible destinations worth visiting."
+        }
+      ],
+      "contact": {
+        "phone": "+30-21-1234-5678",
+        "whatsapp": "+30-697-1234567",
+        "email": "greece@travelagency.com"
+      },
+      "featured": true,
+      "popularityRank": 15
+    }
+  ]
 }
