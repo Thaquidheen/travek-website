@@ -12,6 +12,7 @@ interface CountryCardSliderProps {
 
 export default function CountryCardSlider({ countries }: CountryCardSliderProps) {
   const sliderRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
@@ -27,7 +28,7 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
   // Update items to show based on screen size
   useEffect(() => {
     const updateItemsToShow = () => {
-      if (window.innerWidth < 768) {
+      if (window.innerWidth < 640) {
         setItemsToShow(itemsPerView.mobile);
       } else if (window.innerWidth < 1024) {
         setItemsToShow(itemsPerView.tablet);
@@ -45,6 +46,9 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
   // This ensures we never show empty space
   const maxIndex = Math.max(0, countries.length - itemsToShow);
 
+  // Gap between cards in pixels
+  const gap = 16;
+
   // Auto-play logic
   useEffect(() => {
     if (isPaused || countries.length <= itemsToShow) return;
@@ -61,17 +65,20 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
   // Slide animation
   useGSAP(
     () => {
-      if (!sliderRef.current) return;
+      if (!sliderRef.current || !containerRef.current) return;
 
       const cards = sliderRef.current.querySelectorAll(".destination-card");
       if (cards.length === 0) return;
 
-      // Calculate the percentage to translate
-      // Each card takes up (100 / countries.length)% of the slider width
-      const translatePercent = currentIndex * (100 / countries.length);
+      // Get the container width and calculate card width
+      const containerWidth = containerRef.current.offsetWidth;
+      const cardWidth = (containerWidth - gap * (itemsToShow - 1)) / itemsToShow;
+
+      // Calculate translation in pixels
+      const translateX = currentIndex * (cardWidth + gap);
 
       gsap.to(sliderRef.current, {
-        x: `-${translatePercent}%`,
+        x: -translateX,
         duration: 0.8,
         ease: "power2.inOut",
       });
@@ -92,7 +99,7 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
         }
       });
     },
-    { scope: sliderRef, dependencies: [currentIndex, itemsToShow, countries.length] }
+    { scope: sliderRef, dependencies: [currentIndex, itemsToShow, countries.length, gap] }
   );
 
   const handlePrev = () => {
@@ -110,15 +117,18 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
   // Calculate number of dots to show (based on unique stopping positions)
   const totalDots = maxIndex + 1;
 
+  // Calculate card width percentage based on items to show
+  const cardWidthPercent = 100 / itemsToShow;
+
   return (
-    <div className="relative px-4 sm:px-8 lg:px-12">
+    <div className="relative px-8 sm:px-12 lg:px-16">
       {/* Slider Container */}
-      <div className="overflow-hidden">
+      <div ref={containerRef} className="overflow-hidden">
         <div
           ref={sliderRef}
           className="flex"
           style={{
-            width: `${(countries.length / itemsToShow) * 100}%`,
+            gap: `${gap}px`,
             willChange: "transform",
           }}
           onMouseEnter={() => setIsPaused(true)}
@@ -128,14 +138,13 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
             <div
               key={country.id}
               style={{
-                width: `calc(${100 / countries.length}% - 16px)`,
+                width: `calc(${cardWidthPercent}% - ${(gap * (itemsToShow - 1)) / itemsToShow}px)`,
                 flexShrink: 0,
               }}
-              className="px-2 sm:px-3"
             >
               <a
                 href={`/countries/${country.slug}`}
-                className="destination-card group block h-[320px] sm:h-[380px] md:h-[420px] relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500"
+                className="destination-card group block h-[380px] sm:h-[420px] md:h-[450px] relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500"
               >
                 {/* Background Image */}
                 <div className="absolute inset-0">
@@ -190,18 +199,18 @@ export default function CountryCardSlider({ countries }: CountryCardSliderProps)
         <>
           <button
             onClick={handlePrev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 sm:-translate-x-4 md:-translate-x-6 bg-white hover:bg-primary text-dark hover:text-white p-2.5 sm:p-3 rounded-full shadow-xl transition-all duration-300 hover:scale-110 z-20"
+            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-primary text-dark hover:text-white p-2 sm:p-2.5 md:p-3 rounded-full shadow-xl transition-all duration-300 hover:scale-110 z-20"
             aria-label="Previous slide"
           >
-            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
           </button>
 
           <button
             onClick={handleNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 sm:translate-x-4 md:translate-x-6 bg-white hover:bg-primary text-dark hover:text-white p-2.5 sm:p-3 rounded-full shadow-xl transition-all duration-300 hover:scale-110 z-20"
+            className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-primary text-dark hover:text-white p-2 sm:p-2.5 md:p-3 rounded-full shadow-xl transition-all duration-300 hover:scale-110 z-20"
             aria-label="Next slide"
           >
-            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
           </button>
         </>
       )}

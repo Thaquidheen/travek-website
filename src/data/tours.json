@@ -1350,5 +1350,118 @@
       "featured": true,
       "popularityRank": 15
     }
-  ]
+  ],
+  "aboutUs": {
+    "hero": {
+      "label": "ABOUT US",
+      "title": "Your Gateway to Unforgettable Adventures",
+      "subtitle": "We Design Transformational Travel Experiences That Inspire Life",
+      "description": "With over 25 years of experience, we've helped thousands of travelers discover the world's most breathtaking destinations. Our passion for travel and commitment to excellence has made us a trusted partner for adventurers worldwide."
+    },
+    "stats": [
+      { "id": "1", "value": 220, "suffix": "+", "label": "Projects Done" },
+      { "id": "2", "value": 27, "suffix": "+", "label": "Countries" },
+      { "id": "3", "value": 15, "suffix": "K+", "label": "Happy Travelers" },
+      { "id": "4", "value": 25, "suffix": "+", "label": "Years Experience" }
+    ],
+    "expertise": [
+      {
+        "id": "1",
+        "number": "01",
+        "title": "Tour Planning",
+        "description": "Custom itineraries designed around your preferences, budget, and travel style for unforgettable journeys."
+      },
+      {
+        "id": "2",
+        "number": "02",
+        "title": "Destination Expertise",
+        "description": "In-depth knowledge of 27+ countries with insider tips, hidden gems, and local experiences."
+      },
+      {
+        "id": "3",
+        "number": "03",
+        "title": "Travel Consulting",
+        "description": "Expert guidance on visas, travel insurance, health requirements, and documentation."
+      },
+      {
+        "id": "4",
+        "number": "04",
+        "title": "24/7 Support",
+        "description": "Round-the-clock assistance throughout your journey for peace of mind anywhere in the world."
+      }
+    ],
+    "mission": {
+      "label": "OUR MISSION",
+      "title": "We Create Travel Experiences That Nurture And Inspire",
+      "description": "We believe travel is more than just visiting new places. It's about creating memories, building connections, and experiencing the world's diverse cultures firsthand. Our team of passionate travel experts works tirelessly to craft journeys that transform and inspire.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800"
+    },
+    "vision": {
+      "label": "OUR VISION",
+      "title": "We Design Buildings And Interiors That Nurture And Inspire",
+      "description": "To be the world's most trusted travel partner, making extraordinary travel experiences accessible to everyone while promoting sustainable and responsible tourism.",
+      "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800"
+    },
+    "commitment": {
+      "title": "Commitment To Superior Quality And Results",
+      "items": [
+        {
+          "id": "1",
+          "icon": "award",
+          "title": "Licensed & Certified",
+          "description": "Fully licensed travel agency with certified travel consultants and industry accreditations"
+        },
+        {
+          "id": "2",
+          "icon": "users",
+          "title": "100% Satisfaction Guarantee",
+          "description": "Your satisfaction is our top priority on every trip we plan and execute"
+        },
+        {
+          "id": "3",
+          "icon": "shield",
+          "title": "Quality Assured Travel",
+          "description": "Rigorous quality checks on all our travel partners, hotels, and service providers"
+        }
+      ]
+    },
+    "team": [
+      {
+        "id": "1",
+        "name": "Sarah Johnson",
+        "role": "Founder & CEO",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+        "bio": "25+ years of travel industry experience"
+      },
+      {
+        "id": "2",
+        "name": "Michael Chen",
+        "role": "Head of Operations",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+        "bio": "Expert in logistics and customer experience"
+      },
+      {
+        "id": "3",
+        "name": "Emily Rodriguez",
+        "role": "Senior Travel Consultant",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+        "bio": "Specialized in luxury and adventure travel"
+      },
+      {
+        "id": "4",
+        "name": "David Kim",
+        "role": "Customer Experience Lead",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+        "bio": "Dedicated to creating memorable journeys"
+      }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+      "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+      "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800",
+      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=800",
+      "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800"
+    ]
+  }
 }

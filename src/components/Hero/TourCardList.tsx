@@ -33,7 +33,11 @@ export default function TourCardList({ tours }: TourCardListProps) {
 
   // Number of visible cards based on screen size
   const visibleCards = isMobile ? 1 : 3;
-  const totalSlides = Math.max(0, tours.length - visibleCards + 1);
+  const totalSlides = Math.max(1, tours.length - visibleCards + 1);
+
+  // Card and gap dimensions - must match actual CSS values
+  const cardHeight = isMobile ? 88 : 104; // p-3 (24px total) + h-16 (64px) on mobile, p-3 (24px) + h-20 (80px) on desktop
+  const gapSize = isMobile ? 12 : 16; // gap-3 on mobile, gap-4 on desktop
 
   // Slide to specific index with animation from top
   const slideTo = useCallback(
@@ -41,8 +45,7 @@ export default function TourCardList({ tours }: TourCardListProps) {
       if (!sliderRef.current) return;
 
       const newIndex = Math.max(0, Math.min(index, totalSlides - 1));
-      const cardHeight = isMobile ? 100 : 88; // Approximate card height + gap
-      const targetY = -newIndex * cardHeight;
+      const targetY = -newIndex * (cardHeight + gapSize);
 
       // Animate cards
       gsap.to(sliderRef.current, {
@@ -74,7 +77,7 @@ export default function TourCardList({ tours }: TourCardListProps) {
 
       setCurrentIndex(newIndex);
     },
-    [totalSlides, visibleCards, isMobile]
+    [totalSlides, visibleCards, cardHeight, gapSize]
   );
 
   // Go to next slide
@@ -184,7 +187,9 @@ export default function TourCardList({ tours }: TourCardListProps) {
       {/* Slider container */}
       <div
         className="relative overflow-hidden"
-        style={{ height: isMobile ? "100px" : "280px" }}
+        style={{
+          height: visibleCards * cardHeight + (visibleCards - 1) * gapSize
+        }}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}

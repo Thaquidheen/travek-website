@@ -12,7 +12,7 @@ interface TourCardProps {
 export default function TourCard({ tour, isActive = true }: TourCardProps) {
   return (
     <div
-      className={`tour-card bg-white rounded-2xl p-3 flex gap-3 sm:gap-4 items-center shadow-lg transition-all duration-300 ${
+      className={`tour-card bg-white rounded-2xl p-3 flex gap-3 sm:gap-4 items-center shadow-lg transition-all duration-300 h-[88px] sm:h-[104px] ${
         isActive
           ? "opacity-100 scale-100"
           : "opacity-50 scale-95"

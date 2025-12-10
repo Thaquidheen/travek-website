@@ -11,7 +11,7 @@ const navItems = [
   { label: "Tours", href: "#tours" },
   { label: "Countries", href: "/countries" },
   { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "#contact" },
 ];
 
